@@ -1,2 +1,3 @@
 # bookbot
-Repo for creating the bookbot application
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
