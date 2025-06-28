@@ -2,12 +2,12 @@ import sys
 from stats import word_count, count_characters, sort_characters
 
 def get_book_text(filepath):
-    """Reads and returns the contents of a text file."""
+    #Reads the file contents at the user provided path
     with open(filepath, 'r', encoding='utf-8') as file:
         return file.read()
 
 def main():
-    # Check for correct CLI usage
+    # Check for correct command usage
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
